@@ -1,0 +1,18 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+        <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+      </component>
+      <component name="PublishConfigData" autoUpload="On explicit save action" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;node_modules">
+        <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
