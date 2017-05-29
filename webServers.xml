@@ -20,6 +20,9 @@
       <webServer id="90e6aa02-2d2b-4af3-9fd4-6dfdde045b75" name="blueeye.jaapmoolenaar.nl" url="http://blueeye.jaapmoolenaar.nl">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f62029c5-322d-4564-bf35-5c3854f302e0" name="blueeye.jaapmoolenaar.nl" url="https://blueeye.jaapmoolenaar.nl">
+        <fileTransfer port="0" mountedRoot="X:\jaapmoolenaar.nl\blueeye.jaapmoolenaar.nl" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </application>
