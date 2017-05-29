@@ -17,6 +17,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="90e6aa02-2d2b-4af3-9fd4-6dfdde045b75" name="blueeye.jaapmoolenaar.nl" url="http://blueeye.jaapmoolenaar.nl">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
