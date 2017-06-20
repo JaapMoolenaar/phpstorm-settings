@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="0649ce8e-8f21-4e90-af40-299df71f6328" name="jaapmoolenaar.nl" url="http://jaapmoolenaar.nl">
-        <fileTransfer host="86.80.171.118" port="22" rootFolder="/var/www/jaapmoolenaar.nl" accessType="SFTP">
+        <fileTransfer host="192.168.10.102" port="22" rootFolder="/var/www/jaapmoolenaar.nl" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
