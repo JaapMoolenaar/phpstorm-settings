@@ -9,14 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="64645c6b-597b-4fd1-84cd-a9f35e8ffe82" name="Prod Web 01 (Linux)" url="http://192.168.7.50">
-        <fileTransfer host="192.168.7.50" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="377fd437-7e6f-4cef-b665-f9dbdc37712a" name="admin.iq-soft.nu" url="http://admin.iq-soft.nu">
         <fileTransfer host="admin.iq-soft.nu" port="21" rootFolder="/www.iq-soft.nu">
           <advancedOptions>
