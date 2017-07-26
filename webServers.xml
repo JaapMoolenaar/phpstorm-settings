@@ -20,14 +20,6 @@
       <webServer id="9eb25651-79ff-4980-bd54-fe8b6c0ead1d" name="Vue JS" url="http://localhost:8000">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="64645c6b-597b-4fd1-84cd-a9f35e8ffe82" name="Prod Web 01 (Linux)" url="http://mvro.iq-soft.nu">
-        <fileTransfer host="192.168.7.50" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
