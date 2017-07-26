@@ -10,7 +10,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Remote PHP 5.6">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5.6" path_separator=":" remote_host="192.168.7.254 38527 22" version="5.6.30-7+deb.sury.org~xenial+1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5.6" path_separator=":" remote_host="192.168.7.254 48449 22" version="5.6.30-7+deb.sury.org~xenial+1" warning="Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function&#10;">
           <additional_php_ini>/etc/php/5.6/cli/conf.d/10-opcache.ini, /etc/php/5.6/cli/conf.d/10-pdo.ini, /etc/php/5.6/cli/conf.d/15-xml.ini, /etc/php/5.6/cli/conf.d/20-calendar.ini, /etc/php/5.6/cli/conf.d/20-ctype.ini, /etc/php/5.6/cli/conf.d/20-curl.ini, /etc/php/5.6/cli/conf.d/20-dom.ini, /etc/php/5.6/cli/conf.d/20-exif.ini, /etc/php/5.6/cli/conf.d/20-fileinfo.ini, /etc/php/5.6/cli/conf.d/20-ftp.ini, /etc/php/5.6/cli/conf.d/20-gd.ini, /etc/php/5.6/cli/conf.d/20-gettext.ini, /etc/php/5.6/cli/conf.d/20-iconv.ini, /etc/php/5.6/cli/conf.d/20-igbinary.ini, /etc/php/5.6/cli/conf.d/20-json.ini, /etc/php/5.6/cli/conf.d/20-mbstring.ini, /etc/php/5.6/cli/conf.d/20-mcrypt.ini, /etc/php/5.6/cli/conf.d/20-memcache.ini, /etc/php/5.6/cli/conf.d/20-msgpack.ini, /etc/php/5.6/cli/conf.d/20-mssql.ini, /etc/php/5.6/cli/conf.d/20-odbc.ini, /etc/php/5.6/cli/conf.d/20-pdo_dblib.ini, /etc/php/5.6/cli/conf.d/20-pdo_odbc.ini, /etc/php/5.6/cli/conf.d/20-phar.ini, /etc/php/5.6/cli/conf.d/20-posix.ini, /etc/php/5.6/cli/conf.d/20-readline.ini, /etc/php/5.6/cli/conf.d/20-shmop.ini, /etc/php/5.6/cli/conf.d/20-simplexml.ini, /etc/php/5.6/cli/conf.d/20-soap.ini, /etc/php/5.6/cli/conf.d/20-sockets.ini, /etc/php/5.6/cli/conf.d/20-sysvmsg.ini, /etc/php/5.6/cli/conf.d/20-sysvsem.ini, /etc/php/5.6/cli/conf.d/20-sysvshm.ini, /etc/php/5.6/cli/conf.d/20-tokenizer.ini, /etc/php/5.6/cli/conf.d/20-wddx.ini, /etc/php/5.6/cli/conf.d/20-xdebug.ini, /etc/php/5.6/cli/conf.d/20-xmlreader.ini, /etc/php/5.6/cli/conf.d/20-xmlwriter.ini, /etc/php/5.6/cli/conf.d/20-xsl.ini, /etc/php/5.6/cli/conf.d/20-zip.ini, /etc/php/5.6/cli/conf.d/25-memcached.ini</additional_php_ini>
           <configuration_file>/etc/php/5.6/cli/php.ini</configuration_file>
           <configuration_options>
@@ -291,18 +291,18 @@
             <configuration_option name="xdebug.dump_once" value="1" />
             <configuration_option name="xdebug.dump_undefined" value="0" />
             <configuration_option name="xdebug.extended_info" value="1" />
-            <configuration_option name="xdebug.file_link_format" value="" />
+            <configuration_option name="xdebug.file_link_format" value="phpstorm://open?%f:%l" />
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="" />
-            <configuration_option name="xdebug.max_nesting_level" value="256" />
+            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
+            <configuration_option name="xdebug.max_nesting_level" value="512" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
             <configuration_option name="xdebug.profiler_aggregate" value="0" />
             <configuration_option name="xdebug.profiler_append" value="0" />
-            <configuration_option name="xdebug.profiler_enable" value="0" />
-            <configuration_option name="xdebug.profiler_enable_trigger" value="0" />
+            <configuration_option name="xdebug.profiler_enable" value="1" />
+            <configuration_option name="xdebug.profiler_enable_trigger" value="1" />
             <configuration_option name="xdebug.profiler_enable_trigger_value" value="" />
             <configuration_option name="xdebug.profiler_output_dir" value="/tmp" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
@@ -312,7 +312,7 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="localhost" />
+            <configuration_option name="xdebug.remote_host" value="192.168.7.50" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
