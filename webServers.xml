@@ -20,6 +20,9 @@
       <webServer id="9eb25651-79ff-4980-bd54-fe8b6c0ead1d" name="Vue JS" url="http://localhost:8000">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="a96eb8ee-aba8-49aa-b40c-f0f134cddd08" name="Local Dev" url="http://mvro.b4dev.nl">
+        <fileTransfer port="0" mountedRoot="Z:\" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </application>
