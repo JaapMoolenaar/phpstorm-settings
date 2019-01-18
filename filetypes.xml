@@ -16,6 +16,7 @@
       <mapping ext="development" type="PLAIN_TEXT" />
       <mapping ext="force" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="ejs" type="PLAIN_TEXT" />
       <mapping pattern="MDinput" type="Vue.js" />
     </extensionMap>
   </component>
