@@ -23,6 +23,9 @@
       <webServer id="a96eb8ee-aba8-49aa-b40c-f0f134cddd08" name="Local Dev" url="http://mvro.b4dev.nl">
         <fileTransfer port="0" mountedRoot="Z:\" accessType="MOUNT" />
       </webServer>
+      <webServer id="3edf206c-62e5-4747-bfee-fc1b6033bd91" name="Bot Development Server" url="http://bot-development.i32.nl:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
