@@ -6,5 +6,18 @@
         <option name="certificatesPath" value="C:\Werk\jaapmoolenaar.nl\Certificaten" />
       </configuration>
     </remote-server>
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="tcp://localhost:2375" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="C:\Projects\frontend\app" />
+              <option name="virtualMachinePath" value="/srv" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
+      </configuration>
+    </remote-server>
   </component>
 </application>

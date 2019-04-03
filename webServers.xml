@@ -30,7 +30,7 @@
         <fileTransfer port="0" mountedRoot="W:\cryptobot\bot-frontend" accessType="MOUNT" />
       </webServer>
       <webServer id="a63fc096-ac11-450c-8542-2de5f49354b6" name="Bot Development Windows Docker" url="http://localhost:8080">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
