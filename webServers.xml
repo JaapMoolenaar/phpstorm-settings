@@ -26,8 +26,11 @@
       <webServer id="3edf206c-62e5-4747-bfee-fc1b6033bd91" name="Bot Development Server" url="http://bot-development.i32.nl:8080">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="55e8808f-0ed3-40b1-8d2f-84c5868f243f" name="jaapmoolenaar.nl" url="http://bot-development.i32.nl:8080/">
+      <webServer id="55e8808f-0ed3-40b1-8d2f-84c5868f243f" name="jaapmoolenaar.nl (1)" url="http://bot-development.i32.nl:8080/">
         <fileTransfer port="0" mountedRoot="W:\cryptobot\bot-frontend" accessType="MOUNT" />
+      </webServer>
+      <webServer id="a63fc096-ac11-450c-8542-2de5f49354b6" name="Bot Development Windows Docker" url="http://localhost:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
