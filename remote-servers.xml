@@ -1,11 +1,5 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="Docker jaapmoolenaar.nl\" type="docker">
-      <configuration>
-        <option name="apiUrl" value="https://192.168.10.102:4243" />
-        <option name="certificatesPath" value="C:\Werk\jaapmoolenaar.nl\Certificaten" />
-      </configuration>
-    </remote-server>
     <remote-server name="Docker" type="docker">
       <configuration>
         <option name="apiUrl" value="tcp://localhost:2375" />
