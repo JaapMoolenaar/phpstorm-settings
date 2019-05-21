@@ -32,6 +32,14 @@
       <webServer id="a63fc096-ac11-450c-8542-2de5f49354b6" name="Bot Development Windows Docker" url="http://localhost:8080">
         <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
       </webServer>
+      <webServer id="d9cedf3c-1c6b-4298-9995-6a68bb18f318" name="Mac VM" url="http://192.168.0.157:8080">
+        <fileTransfer host="192.168.0.157" port="22" rootFolder="/Users/jaap/Documents/Cordova/ScannerIos" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
