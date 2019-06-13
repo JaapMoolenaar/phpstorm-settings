@@ -26,5 +26,10 @@
         </option>
       </configuration>
     </remote-server>
+    <remote-server name="Docker VMWare 192.168.10.110" type="docker">
+      <configuration>
+        <option name="apiUrl" value="tcp://192.168.10.110:2375" />
+      </configuration>
+    </remote-server>
   </component>
 </application>
