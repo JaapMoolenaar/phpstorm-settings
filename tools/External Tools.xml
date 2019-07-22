@@ -6,7 +6,7 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="docker-volume-watcher bot frontend" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+  <tool name="docker-volume-watcher bot frontend" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="docker-volume-watcher " />
       <option name="PARAMETERS" value="bot-frontend_vuejs-nginx_1 -v " />
