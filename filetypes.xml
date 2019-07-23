@@ -12,6 +12,7 @@
       <mapping ext="rules" type="PLAIN_TEXT" />
       <mapping ext="buff" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="styl" type="PLAIN_TEXT" />
       <mapping ext="development" type="PLAIN_TEXT" />
       <mapping ext="force" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
