@@ -5,6 +5,8 @@
       <sshConfig authType="PASSWORD" host="192.168.0.157" id="7a4a4bb8-64c2-4127-b1d8-a68231072aab" port="22" customName="Mac VM" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="192.168.10.102" id="0eb67643-ddec-487e-ba4f-07933575c97a" port="22" customName="jaapmoolenaar.nl" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="192.168.0.157" id="1837e43a-2415-492f-8b7b-0db53cb5de4e" port="22" customName="Mac VM" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.10.102" id="d8240374-7f48-4f71-bb8d-c9ca949e4802" port="22" customName="jaapmoolenaar.nl" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.0.157" id="f89a83d1-47d7-4f23-a526-13157ebdf019" port="22" customName="Mac VM" nameFormat="CUSTOM" />
     </configs>
   </component>
 </application>
