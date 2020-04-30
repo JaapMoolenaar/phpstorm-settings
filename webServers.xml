@@ -1,43 +1,33 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0649ce8e-8f21-4e90-af40-299df71f6328" name="jaapmoolenaar.nl" url="http://jaapmoolenaar.nl">
-        <fileTransfer host="192.168.10.102" port="22" rootFolder="/var/www/jaapmoolenaar.nl" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="377fd437-7e6f-4cef-b665-f9dbdc37712a" name="admin.iq-soft.nu" url="http://admin.iq-soft.nu">
-        <fileTransfer host="admin.iq-soft.nu" port="21" rootFolder="/www.iq-soft.nu">
+        <fileTransfer rootFolder="/www.iq-soft.nu" host="admin.iq-soft.nu" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="9eb25651-79ff-4980-bd54-fe8b6c0ead1d" name="Vue JS" url="http://localhost:8000">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="a96eb8ee-aba8-49aa-b40c-f0f134cddd08" name="Local Dev" url="http://mvro.b4dev.nl">
-        <fileTransfer port="0" mountedRoot="Z:\" accessType="MOUNT" />
+        <fileTransfer mountedRoot="Z:\" accessType="MOUNT" port="0" />
       </webServer>
       <webServer id="3edf206c-62e5-4747-bfee-fc1b6033bd91" name="Bot Development Server" url="http://bot-development.i32.nl:8080">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="55e8808f-0ed3-40b1-8d2f-84c5868f243f" name="jaapmoolenaar.nl (1)" url="http://bot-development.i32.nl:8080/">
-        <fileTransfer port="0" mountedRoot="W:\cryptobot\bot-frontend" accessType="MOUNT" />
+        <fileTransfer mountedRoot="W:\cryptobot\bot-frontend" accessType="MOUNT" port="0" />
       </webServer>
       <webServer id="a63fc096-ac11-450c-8542-2de5f49354b6" name="Bot Development Windows Docker" url="http://localhost:8080">
-        <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
+        <fileTransfer mountedRoot="" accessType="MOUNT" port="0" />
       </webServer>
       <webServer id="d9cedf3c-1c6b-4298-9995-6a68bb18f318" name="Mac VM" url="http://192.168.0.157:8080">
-        <fileTransfer host="192.168.0.157" port="22" rootFolder="/Users/jaap/Documents/Cordova/ScannerIos" accessType="SFTP">
+        <fileTransfer rootFolder="/Users/jaap/Documents/Cordova/ScannerIos" accessType="SFTP" host="192.168.0.157" port="22" sshConfigId="a220ca43-edd0-4e28-999e-17e2dee250f1" sshConfig="Mac VM">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
