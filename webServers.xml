@@ -24,7 +24,7 @@
         <fileTransfer mountedRoot="" accessType="MOUNT" port="0" />
       </webServer>
       <webServer id="d9cedf3c-1c6b-4298-9995-6a68bb18f318" name="Mac VM" url="http://192.168.0.157:8080">
-        <fileTransfer rootFolder="/Users/jaap/Documents/Cordova/ScannerIos" accessType="SFTP" host="192.168.0.157" port="22" sshConfigId="a220ca43-edd0-4e28-999e-17e2dee250f1" sshConfig="Mac VM">
+        <fileTransfer rootFolder="/Users/jaap/Documents/Cordova/ScannerIos" accessType="SFTP" sshConfigId="a220ca43-edd0-4e28-999e-17e2dee250f1" sshConfig="Mac VM">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
