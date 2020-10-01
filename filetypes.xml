@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="temp" type="PLAIN_TEXT" />
       <mapping pattern="P15dba" type="PLAIN_TEXT" />
+      <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="environment" type="PLAIN_TEXT" />
       <mapping pattern="nginx-add" type="PLAIN_TEXT" />
