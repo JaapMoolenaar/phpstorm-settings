@@ -12,6 +12,7 @@
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="buff" type="PLAIN_TEXT" />
+      <mapping ext="save" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="ejs" type="PLAIN_TEXT" />
       <mapping ext="force" type="PLAIN_TEXT" />
