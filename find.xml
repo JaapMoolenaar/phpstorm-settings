@@ -10,5 +10,6 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.php</mask>
+    <mask>*.vue</mask>
   </component>
 </application>
