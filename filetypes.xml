@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="SQL_FILE" type="AUTO_DETECTED" />
+      <mapping pattern="startup" type="AUTO_DETECTED" />
       <mapping pattern="segments" type="AUTO_DETECTED" />
       <mapping pattern="nginx-add" type="PLAIN_TEXT" />
       <mapping pattern="P15dba" type="PLAIN_TEXT" />
