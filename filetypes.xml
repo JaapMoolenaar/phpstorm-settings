@@ -25,6 +25,7 @@
       <mapping ext="development" type="PLAIN_TEXT" />
       <mapping ext="rules" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="nl" type="PLAIN_TEXT" />
       <mapping pattern="MDinput" type="Vue.js" />
     </extensionMap>
   </component>
