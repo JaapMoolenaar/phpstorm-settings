@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="7570f7b2-e4eb-440c-8953-31d040cd51c7" name="anjaenjaap.nl" url="https://anjaenjaap.nl">
+        <fileTransfer rootFolder="/var/www/anjaenjaap.nl" accessType="SFTP" host="192.168.10.102" port="22" sshConfigId="78c1b2fa-5db3-435b-b6b4-b3edf470945c" sshConfig="jaap@192.168.10.102:22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="377fd437-7e6f-4cef-b665-f9dbdc37712a" name="admin.iq-soft.nu" url="http://admin.iq-soft.nu">
         <fileTransfer rootFolder="/www.iq-soft.nu" host="admin.iq-soft.nu" port="21">
           <advancedOptions>
