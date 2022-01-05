@@ -4,15 +4,15 @@
       <mapping pattern="SQL_FILE" type="AUTO_DETECTED" />
       <mapping pattern="startup" type="AUTO_DETECTED" />
       <mapping pattern="segments" type="AUTO_DETECTED" />
-      <mapping pattern="nginx-add" type="PLAIN_TEXT" />
-      <mapping pattern="P15dba" type="PLAIN_TEXT" />
       <mapping pattern=".env.PRODUCTION" type="PLAIN_TEXT" />
-      <mapping pattern="temp" type="PLAIN_TEXT" />
-      <mapping pattern="environment" type="PLAIN_TEXT" />
-      <mapping pattern=".env.STAGING" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="nginx-add" type="PLAIN_TEXT" />
+      <mapping pattern=".env.STAGING" type="PLAIN_TEXT" />
+      <mapping pattern="P15dba" type="PLAIN_TEXT" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="environment" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="buff" type="PLAIN_TEXT" />
       <mapping ext="save" type="PLAIN_TEXT" />
