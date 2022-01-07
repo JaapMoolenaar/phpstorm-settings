@@ -4,6 +4,7 @@
       <mapping pattern="SQL_FILE" type="AUTO_DETECTED" />
       <mapping pattern="startup" type="AUTO_DETECTED" />
       <mapping pattern="segments" type="AUTO_DETECTED" />
+      <mapping pattern="allow-sap-writing" type="PLAIN_TEXT" />
       <mapping pattern=".env.PRODUCTION" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
