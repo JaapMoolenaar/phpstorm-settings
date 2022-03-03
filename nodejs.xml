@@ -1,0 +1,5 @@
+<application>
+  <component name="WslNodeInterpreterManager">
+    <wsl-interpreter distribution="Ubuntu-18.04" path="/home/jaap/.volta/bin/node" />
+  </component>
+</application>
