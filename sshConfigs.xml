@@ -3,6 +3,9 @@
     <configs>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.10.102" id="78c1b2fa-5db3-435b-b6b4-b3edf470945c" localPort="22" port="22" nameFormat="DESCRIPTIVE" username="jaap" />
       <sshConfig authType="OPEN_SSH" host="159.223.10.222" id="fdb27161-c070-4154-b576-1df518dc8d01" port="54798" nameFormat="DESCRIPTIVE" username="ssm-user" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.10.106" id="429a66fb-3c3e-46ee-8d0a-00f108d419b9" localPort="22" port="22" customName="jaap@192.168.10.106:22:22" nameFormat="CUSTOM" username="jaap" useOpenSSHConfig="true">
+        <option name="customName" value="jaap@192.168.10.106:22:22" />
+      </sshConfig>
     </configs>
   </component>
 </application>
