@@ -5,6 +5,7 @@
       <mapping pattern="startup" type="AUTO_DETECTED" />
       <mapping pattern="1" type="AUTO_DETECTED" />
       <mapping pattern="segments" type="AUTO_DETECTED" />
+      <mapping pattern="globalgamemanagers" type="AUTO_DETECTED" />
       <mapping pattern="inkomen" type="AUTO_DETECTED" />
       <mapping pattern="allow-sap-writing" type="PLAIN_TEXT" />
       <mapping pattern=".env.PRODUCTION" type="PLAIN_TEXT" />
